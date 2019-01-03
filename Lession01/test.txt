@@ -1,8 +1,0 @@
-// @Author Kin
-// @Date   2019/01/03
-
-init
-config  user.email "xxx"
-config  user.name  "xxx"
-some info need delete
-
