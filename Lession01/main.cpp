@@ -7,6 +7,12 @@ decltype(auto) Add(T&&... args)
 	return (args + ...);
 }
 
+template<typename T>
+T mul(T a, T b)
+{
+	return a * b;
+}
+
 int main()
 {
 	auto SayHello = std::string("Hello World!");
