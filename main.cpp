@@ -16,6 +16,7 @@ T mul(T a, T b)
 void Temp()
 {
 	std::cout<<"in Temp"<<std::endl;
+
 }
 
 void NewTemp()
@@ -28,5 +29,6 @@ int main()
 	std::cout<< SayHello <<std::endl;
 
 	std::cout <<"Add num is :"<<Add(3,5,2,6,4,8)<<std::endl;	
+	//Add some comment
 	return 0;
 }
