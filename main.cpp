@@ -20,14 +20,18 @@ public:
 	}
 
 private:
+	int ComputeMaxStars()
+	{
+		return 2*TotalLines + 1;
+	}
 	int ComputeCurrentSpace(int LineNumber)
 	{
-		return 0;
+		return (ComputeMaxStars() - ComputeCurrentStars(LineNumber))>>1;
 	}
 
 	int ComputeCurrentStars(int LineNumbers)
 	{
-		return 0;
+		return 2*LineNumbers - 1;
 	}
 
 private:
@@ -47,8 +51,13 @@ int main()
 {
 	std::cout<<"print Start Program"<<std::endl;
 
-	ShapeGenerator sg{10};
+	int Lines;
 
-	sg.print();
+	while(std::cin>>Lines)
+	{
+		ShapeGenerator sg{Lines};
+
+		sg.print();
+	}
 	return 0;
 }
