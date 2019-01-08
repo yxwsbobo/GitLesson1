@@ -17,6 +17,10 @@ void Temp()
 {
 	std::cout<<"in Temp"<<std::endl;
 }
+
+void NewTemp()
+{
+}
 int main()
 {
 	auto SayHello = std::string("Hello World!");
