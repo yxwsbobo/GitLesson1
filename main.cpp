@@ -16,6 +16,7 @@ T mul(T a, T b)
 void Temp()
 {
 	std::cout<<"in Temp"<<std::endl;
+
 }
 int main()
 {
