@@ -13,6 +13,10 @@ T mul(T a, T b)
 	return a * b;
 }
 
+void Temp()
+{
+	std::cout<<"in Temp"<<std::endl;
+}
 int main()
 {
 	auto SayHello = std::string("Hello World!");
