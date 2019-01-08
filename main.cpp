@@ -20,6 +20,7 @@ void Temp()
 
 void NewTemp()
 {
+	std::cout << "in NewTemp"<<std::endl;
 }
 int main()
 {
